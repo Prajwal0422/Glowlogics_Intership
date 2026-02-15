@@ -1,0 +1,44 @@
+OOPS
+class                 object
+lock                keys-key1,key2,key3
+mobile-cony\t       name,phnon
+                    name2,phn2
+sms                 name,message
+compuetr note[pad]  files
+workpad
+ms office 3rd party software
+whatsappm,fb
+
+
+Class
+ ddate mambers
+ methods
+
+object
+
+class addition belong to sbi bank =example
+multiple classes means each classes belong to same group
+
+each  class will be havving dirrent object but same classes
+-----------------------------------------------------------------------------
+
+Constructors+parameters
+class student== details():  this is called as method
+
+
+class student== student():  this is called as method
+
+def __init__(me)= default constructor
+if(me.a>me.b):
+print("A)"
+else:
+print(b)
+
+===============================================================================
+
+destructor- in python it is not required boz python has automatic garbage collection
+still if we want to clear memory -- we can use __del(self) and use del obj1 (to delet the data
+at the end to mention
+__del__(me):
+
+why to use this? = after uploading raw data it the memory will be cleared
