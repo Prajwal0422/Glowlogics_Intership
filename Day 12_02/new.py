@@ -1,3 +1,10 @@
+def student(name,age):
+print(name)
+print(age)
+print(marks)
+student('vikas',56,97)
+
+
 def student(name, course, collname="CMR"):
     return name, course, collname
 
