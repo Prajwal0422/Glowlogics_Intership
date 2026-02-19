@@ -1,0 +1,1 @@
+print(np.char.lower("WELCOME TO CRYSTAL"))

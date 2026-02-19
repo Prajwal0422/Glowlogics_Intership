@@ -1,0 +1,1 @@
+print(np.char.capitalize("welcome to crystal"))

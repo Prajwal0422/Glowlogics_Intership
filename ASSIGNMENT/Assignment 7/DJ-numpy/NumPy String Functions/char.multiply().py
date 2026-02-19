@@ -1,0 +1,1 @@
+print(np.char.multiply("hello ",3))
