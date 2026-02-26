@@ -1,0 +1,10 @@
+plt.scatter(x,y, label='Enfield',color='r')
+plt.scatter(x,y2,label='Honda',color='b')
+plt.scatter(x,y3,label='Yamaha',color='y')
+plt.scatter(x,y4,label='KTM',color='k')
+
+plt.xlabel('Days')
+plt.ylabel('Distance in kms')
+plt.title('Bike Details in Scatter Plot')
+plt.legend()
+plt.show()
