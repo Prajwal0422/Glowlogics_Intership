@@ -1,7 +1,3 @@
-Create this file:
 pandas
 openpyxl
 mysql-connector-python
-
-Install everything with:
-pip install -r requirements.txt
