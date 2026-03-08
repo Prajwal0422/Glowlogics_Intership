@@ -1,0 +1,18 @@
+CREATE DATABASE praveen;
+
+USE Prajwal;
+
+CREATE TABLE Sample(
+EID INT,
+Name VARCHAR(25)
+);
+
+INSERT INTO Sample VALUES(11,'Anil');
+INSERT INTO Sample VALUES(22,'Sunil');
+INSERT INTO Sample VALUES(33,'Vikas');
+INSERT INTO Sample VALUES(44,'Roy');
+INSERT INTO Sample VALUES(55,'Rock');
+INSERT INTO Sample VALUES(66,'Ganesh');
+INSERT INTO Sample VALUES(77,'Sathesh');
+
+SELECT * FROM Sample;
