@@ -1,0 +1,106 @@
+		NAIVE BAYES
+
+STEP 1) FROM THE TABLE
+
+	No.of Students	=	10
+
+	Maths - High	=	5
+	Maths - Low	=	5
+
+	Attendance - Good	=	5
+	Attendance - Poor	=	5
+
+	Internal - High	=	2
+	Internal - Medium	= 	5
+	Internal - Low	=	3
+
+	Pass		=	6
+	Fail		=	4
+
+STEP 2) GOAL----> Prediction for NEW Student
+
+	Maths = High
+	Attendance = Poor
+	Internal = Medium
+
+STEP 3) HOW TO SOLVE
+
+	3)A) Find CLASS PROBABILITIES
+
+	P(PASS) = 6/10	=	0.6
+
+	P(FAIL) = 4/10	=	0.4
+
+STEP 4) FIND CONDITIONAL PROBABILITIES
+
+	4)A)	FOR PASS
+
+	P(MATHS = HIGH |PASS)
+	P(ATTENDANCE = POOR |PASS)
+	P(INTERNAL = MEDIUM |PASS)
+
+	4)B)	FOR FAIL
+
+STEP 5) COUNT VALUES
+
+	5)A) FOR PASS(TOTALLY 6 STUDENTS)
+
+	Maths = High	=	5
+	Attendance = Poor	=	2
+	Internal = Medium	=	3
+
+	5)B) FOR FAIL(TOTALLY 4 STUDENTS)
+
+	Maths = High	=	0
+	Attendance = Poor	=	3
+	Internal = Medium	=	1
+
+STEP 6) APPLY LAPLACE SMOOTHING----> +1
+
+	CATEGORY
+
+		6)A) Maths	= 2(High,Low)
+		6)B) Attendance	= 2(Good,Poor)
+		6)C) Internal	= 3(High,Medium,Poor)
+
+STEP 7) FOR PASS
+
+	7)A) P(Maths = High |Pass) 	= (5+1)/(6+2)	=	6/8	= 0.75
+	7)B) P(Attendance = Poor |Pass)	= (2+1)/(6+2)	=	3/8	= 0.375
+	7)C) P(Internal = Medium |Pass)	= (3+1)/(6+3)	=	4/9	= 0.44
+
+	FOR FAIL
+
+	7)D) P(Maths = High |Fail)	= (0+1)/(4+2)	=	1/6	= 0.17
+	7)E) P(Attendance = Poor | Fail)	= (3+1)/(4+2)	=	4/6	= 0.67
+	7)F) P(Internal = Medium | Fail)	= (1+1)/(4+3)	=	2/7	= 0.29
+
+STEP 8) APPLY NAIVE BAYES FORMULA
+
+	8)A) FOR PASS
+
+		P(PASS | DATA) = 0.6 X 0.75 X 0.375 X 0.44
+
+		RESULT = 0.074
+
+	8)B) FOR FAIL
+
+		P(FAIL |DATA) = 0.4 X 0.17 X 0.67 X 0.29
+
+		RESULT = 0.013
+
+STEP 9) FINAL COMPARISON
+
+	PASS	=	0.074
+	FAIL	=	0.013
+
+STEP 10) FINAL PREDICTION
+
+	PREDICTION = PASS
+
+
+
+		
+	
+
+	
