@@ -1,0 +1,7 @@
+Email,Offer,Money,Meeting,Class
+E1,Yes,Yes,No,Spam
+E2,Yes,No,No,Spam
+E3,Yes,Yes,Yes,Spam
+E4,No,Yes,Yes,NotSpam
+E5,No,No,Yes,NotSpam
+E6,No,No,No,NotSpam
