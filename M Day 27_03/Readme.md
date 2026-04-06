@@ -1,4 +1,7 @@
- Dataset
+Dataset yester
+
+class probability
+p(1)= 0Dataset
 patient age chol bp target
 p1     55   250  140  1
 
@@ -34,3 +37,20 @@ variance
 
 sandard dev
 sqrt(38.89) = 6.2
+
+
+chol = 250,240,230
+mean = 240
+deviation 
+value(x) 
+10
+\0
+-10
+
+square
+100
+0
+100
+
+variance = 66.67
+stdeviation 8.2
