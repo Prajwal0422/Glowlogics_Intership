@@ -1,0 +1,11 @@
+Student,StudyHours,Attendance,Result
+A,2,40,Fail
+B,3,50,Fail
+C,5,60,Pass
+D,6,70,Pass
+E,7,80,Pass
+F,4,65.5,Fail
+G,6,70,Pass
+H,8,33,Fail
+I,10,80,Pass
+J,7,25,Fail
